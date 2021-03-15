@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="app.js"></script>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap" rel="stylesheet"> 
+    <title>Quiz</title>
+</head>
+<body>
+<div class="container">
+    <h1>Are you an expert gamer?</h1>
+    <div class="button">
+      <button type="button" onclick="startQuiz()">Start Quiz</button>    
+    </div>
+    <div class="question"> 
+     <p id="question0">When was the first video game console invented?</p>
+      <div class="answer-submit">
+         <input type="text" class="answer" id="answer0" onkeypress="keyboardSubmit(event, 0)"> 
+         <button type="button" class="next" id="next0" onclick="submit(0)">Next</button>
+      </div>
+    </div>
+    <div class="question">
+     <p id="question1">What was the name of the first video game console?</p>
+     <div class="answer-submit">
+     <input type="text" class="answer" id="answer1" onkeypress="keyboardSubmit(event, 1)">
+     <button type="button" class="next" id="next1" onclick="submit(1)">Next</button>
+     </div>
+    </div>
+    <div class="question">
+     <p id="question2">Who is the president and CEO of Playstation?</p>
+     <div class="answer-submit">
+     <input type="text" class="answer" id="answer2" onkeypress="keyboardSubmit(event, 2)">
+     <button type="button" class="next" id="next2" onclick="submit(2)" >Next</button>
+     </div>
+    </div>
+    <div class="question">
+     <p id="question3">How many gaming platforms are there?</p>
+     <div class="answer-submit">
+     <input type="text" class="answer" id="answer3" onkeypress="keyboardSubmit(event, 3)">
+     <button type="button" class="next" id="next3" onclick="submit(3)">Next</button>
+     </div>
+    </div>
+    <div class="question">
+     <p id="question4">Who is the CEO of Xbox?</p>
+     <div class="answer-submit">
+     <input type="text" class="answer" id="answer4" onkeypress="keyboardSubmit(event, 4)">
+     <button type="button" class="next" id="next4" onclick="submit(4)">Next</button>
+     </div>
+    </div>
+    <div class="question">
+     <p id="question5">On which year did Microsoft acquire Bethesda Studios?</p>
+     <div class="answer-submit">
+     <input type="text" class="answer" id="answer5" onkeypress="keyboardSubmit(event, 5)">
+     <button type="button" class="next" id="next5" onclick="submit(5)">Next</button>
+     </div>
+    </div>
+    <div class="question">
+     <p id="question6">When did the PS one come out?</p>
+     <div class="answer-submit">
+     <input type="text"  class="answer" id="answer6" onkeypress="keyboardSubmit(event, 6)">
+     <button type="button" class="next" id="next6" onclick="submit(6)">Next</button>
+     </div>
+    </div>
+    <div class="question">
+     <p id="question7">In which game does the character Nathan Drake exist?</p>
+     <div class="answer-submit">
+     <input type="text" class="answer" id="answer7" onkeypress="keyboardSubmit(event, 7)">
+     <button type="button" class="next" id="next7" onclick="submit(7)">Next</button>
+     </div>
+    </div>
+    <div class="question">
+     <p id="question8">Who made God of War?</p>
+     <div class="answer-submit">
+     <input type="text" class="answer" id="answer8" onkeypress="keyboardSubmit(event, 8)">
+     <button type="button" class="next" id="next8" onclick="submit(8)">Next</button>
+     </div>
+    </div>
+    <div class="question">
+     <p id="question9">Who is the president of FromSoftware?</p>
+     <div class="answer-submit">
+     <input type="text" class="answer" id="answer9" onkeypress="keyboardSubmit(event, 9)">
+     <button type="button" class="next" id="next9" onclick="submit(9)">Next</button>
+     </div>
+     <div class="question">
+      <p id='finalResult'></p>
+      </div>
+    </div>
+
+</div>
+    
+</body>
+</html>

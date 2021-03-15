@@ -1,0 +1,78 @@
+html , body {
+    margin: 0;
+    padding: 0;
+    font-size: 17px;
+    font-family: 'Roboto Mono';
+    display: flex;
+    justify-content: center;
+    background-image: url(images/Snowfoller\ Gamer\ Wall\ Decals\ -\ Boys\ Kids\ Room\ Wallpaper\ -\ Fashion\ Door\ Home\ Decor\ Wall\ Sticker\ Decal\ Bedroom\ Art\ Mural.jpeg);
+    background-repeat: repeat;
+    background-size: 300px;
+}
+.container {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    padding-bottom: 10%;
+    background-color: rgb(255, 255, 255);
+}
+button {
+    width: 150px;
+    height: 50px;
+    border-radius: 30px;
+    font-size: 15px;
+    font-weight: 600;
+    background-color: cornflowerblue;
+    color: floralwhite;
+    outline: none;
+}
+.answer-submit {
+    display: flex;
+    justify-content: space-around;
+}
+.button {
+    width: 100%;
+    text-align: center;
+}
+.question p {
+    display: none;
+    font-weight: 900;
+    color: darkblue;
+}
+h1 {
+    color: darkblue;
+    font-weight: 900;
+}
+
+input:focus {
+    outline: none;
+}
+input {
+    text-indent: 20px;
+    color: rgb(3, 3, 102);
+}
+
+.answer {
+    display: none;
+    width: 100%;
+    outline: none;
+    border: none;
+    background-color: rgb(216, 226, 245);
+    border-radius: 30px;
+    height: 50px;
+    font-size: 17px;
+}
+
+.next {
+    display: none;
+}
+
+#finalResult {
+    display: none;
+    font-size: 25px;
+    font-weight: 900;
+    color: darkblue;
+}
